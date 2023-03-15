@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AWWW_lab1_gr1_Kulesza/1.0.0": {
+        "runtime": {
+          "AWWW_lab1_gr1_Kulesza.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWWW_lab1_gr1_Kulesza/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

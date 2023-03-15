@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AWWW_lab1_gr1_Kulesza.props" />
+</Project>
