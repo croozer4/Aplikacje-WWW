@@ -2,5 +2,11 @@
 {
     public class Position
     {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        // * - 1
+        public ICollection<MatchPlayer>? MatchPlayers { get; set; }
+        // * - 1
+        public ICollection<Player>? Players { get; set; }
     }
 }
