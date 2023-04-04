@@ -27,3 +27,14 @@ C:\Users\Student\Documents\Konrad Kulesza\AWWW_lab1_gr1_Kulesza_sol1\AWWW_lab1_g
 C:\Users\Student\Documents\Konrad Kulesza\AWWW_lab1_gr1_Kulesza_sol1\AWWW_lab1_gr1_Kulesza\bin\Debug\net6.0\AWWW_lab1_gr1_Kulesza.staticwebassets.runtime.json
 C:\Users\Student\Documents\Konrad Kulesza\AWWW_lab1_gr1_Kulesza_sol1\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.RazorAssemblyInfo.cache
 C:\Users\Student\Documents\Konrad Kulesza\AWWW_lab1_gr1_Kulesza_sol1\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.RazorAssemblyInfo.cs
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.csproj.AssemblyReference.cache
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.AssemblyInfoInputs.cache
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.AssemblyInfo.cs
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.csproj.CoreCompileInputs.cache
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.RazorAssemblyInfo.cache
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.RazorAssemblyInfo.cs
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.dll
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\refint\AWWW_lab1_gr1_Kulesza.dll
+C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza\obj\Debug\net6.0\AWWW_lab1_gr1_Kulesza.pdb

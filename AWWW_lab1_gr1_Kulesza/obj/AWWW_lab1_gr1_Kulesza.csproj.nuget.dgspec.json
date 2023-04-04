@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj": {}
+    "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj": {
+    "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj",
+        "projectUniqueName": "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj",
         "projectName": "AWWW_lab1_gr1_Kulesza",
-        "projectPath": "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\obj\\",
+        "projectPath": "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\AWWW_lab1_gr1_Kulesza.csproj",
+        "packagesPath": "C:\\Users\\Konrad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Konrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,8 +73,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
