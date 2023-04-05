@@ -1,0 +1,19 @@
+﻿@model AWWW_lab1_gr1_Kulesza.Models.Author
+
+<h1>Dodano autora:</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        <h1>@(Model.FirstName + " " + Model.LastName)</h1>
+    </header>
+
+    <div class="w3-container">
+        <p>ID autora: @Model.Id</p>
+        @if (@Model.Articles != null)
+        {
+            <p><a asp-controller="article" asp-action="index" asp-route-id="@Model.Id">Artykuł</a></p>
+        }
+    </div>
+</div>
+
+
