@@ -1,25 +1,53 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model ICollection<AWWW_lab1_gr1_Kulesza.Models.Article>
 
 <h1>@ViewBag.Title</h1>
 
 <p>Witamy na stronie głównej</p>
 
-<p>
-    Artykuły:
+<p>Artykuły:</p>
 
-    <ul>
-        <li><a asp-controller="article" asp-action="index" asp-route-id="1">Artykuł 1</a></li>
-        <li><a asp-controller="article" asp-action="index" asp-route-id="2">Artykuł 2</a></li>
-        <li><a asp-controller="article" asp-action="index" asp-route-id="3">Artykuł 3</a></li>
-    </ul>
+@if (Model != null)
+{
+    foreach (var article in Model)
+    {
+        <p>
+            <div class="w3-card">
+                <header class="w3-container w3-blue">
+                    <h1>@article.Title</h1>
+                    @if (@article.Author != null)
+                    {
+                        <h2>@(article.Author.FirstName + " " + article.Author.LastName)</h2>
+                    }
+                </header>
 
-    Sudenci:
+                <div class="w3-container">
+                    <p>@article.Lead</p>
+                    <p><a asp-controller="article" asp-action="index" asp-route-id="@article.Id">Czytaj dalej</a></p>
+                </div>
 
-    <ul>
-        <li><a asp-controller="studenci" asp-action="index">Studenci</a></li>
-    </ul>
-</p>
+                <footer class="w3-container w3-blue">
+                    <h5>
+                        @article.CreationDate.ToShortDateString()
+                        @if(@article.Tags != null)
+                        {
+                            @foreach (var tag in @article.Tags)
+                                @(tag.Name + " ")
+                        }
+                    </h5>
+                </footer>
+            </div>
+        </p>
+    }
+}
+
+<!-- <p><a asp-controller="article" asp-action="add">Dodaj artykuł</a></p> -->
+<p><a asp-controller="author" asp-action="add">Dodaj autora</a></p>
+<p><a asp-controller="category" asp-action="add">Dodaj kategorię</a></p>
+<p><a asp-controller="tag" asp-action="add">Dodaj tag</a></p>
+<p><a asp-controller="league" asp-action="add">Dodaj ligę</a></p>
+<p><a asp-controller="eventType" asp-action="add">Dodaj rodzaj wydarzenia</a></p>
+<p><a asp-controller="position" asp-action="add">Dodaj pozycję</a></p>
+
+
+
+

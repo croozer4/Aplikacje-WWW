@@ -1,17 +1,31 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model AWWW_lab1_gr1_Kulesza.Models.Article
 
-@model AWWW_lab1_gr1_Kulesza.Models.Article
+<h1>Artykuł</h1>
 
-<h1>@Model.Title</h1>
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        <h1>@Model.Title</h1>
+        @if (@Model.Author != null)
+        {
+            <h2>@(Model.Author.FirstName + " " + Model.Author.LastName)</h2>
+        }
+    </header>
 
-<p>
-    Data utworzenia: @Model.CreationDate.ToShortDateString()
-</p>
+    <div class="w3-container">
+        <p>@Model.Lead</p>
+        <p>@Model.Content</p>
+    </div>
 
-<p>
-    @Model.Content
-</p>
+    <footer class="w3-container w3-blue">
+        <h5>
+            @Model.CreationDate.ToShortDateString()
+            @if(@Model.Tags != null)
+            {
+                @foreach (var tag in @Model.Tags)
+                    @(tag.Name + " ")
+            }
+        </h5>
+     </footer>
+</div>
+
+

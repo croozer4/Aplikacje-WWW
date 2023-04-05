@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Konrad\Desktop\pliki na studia\Semestr 6\AWWW\Aplikacje-WWW\AWWW_lab1_gr1_Kulesza
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Konrad/Desktop/pliki na studia/Semestr 6/AWWW/Aplikacje-WWW/AWWW_lab1_gr1_Kulesza/Views/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Konrad/Desktop/pliki na studia/Semestr 6/AWWW/Aplikacje-WWW/AWWW_lab1_gr1_Kulesza/Views/Article/Added.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBZGRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Konrad/Desktop/pliki na studia/Semestr 6/AWWW/Aplikacje-WWW/AWWW_lab1_gr1_Kulesza/Views/Article/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

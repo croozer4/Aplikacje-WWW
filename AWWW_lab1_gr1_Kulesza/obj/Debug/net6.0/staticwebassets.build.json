@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v420XyCLON5HD28v3KFXl1nXWOtHWrJDolmxKDVRO9M=",
+  "Hash": "AIcchp0bjXV+0fEajM4N9lqFDgLHfrfCdEN8Lf3rqTs=",
   "Source": "AWWW_lab1_gr1_Kulesza",
   "BasePath": "_content/AWWW_lab1_gr1_Kulesza",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AWWW_lab1_gr1_Kulesza\\wwwroot",
       "Source": "AWWW_lab1_gr1_Kulesza",
-      "ContentRoot": "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\wwwroot\\",
       "BasePath": "_content/AWWW_lab1_gr1_Kulesza",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\wwwroot\\css\\site.css",
       "SourceId": "AWWW_lab1_gr1_Kulesza",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Student\\Documents\\Konrad Kulesza\\AWWW_lab1_gr1_Kulesza_sol1\\AWWW_lab1_gr1_Kulesza\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Konrad\\Desktop\\pliki na studia\\Semestr 6\\AWWW\\Aplikacje-WWW\\AWWW_lab1_gr1_Kulesza\\wwwroot\\",
       "BasePath": "_content/AWWW_lab1_gr1_Kulesza",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
