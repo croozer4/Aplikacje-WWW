@@ -1,0 +1,15 @@
+﻿@model AWWW_lab1_gr1_Kulesza.Models.Tag
+
+<h1>Tag</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        <h1>@Model.Name</h1>
+        @if (@Model.Articles != null)
+        {
+            <p><a asp-controller="article" asp-action="index" asp-route-id="@Model.Id">Artykuł</a></p>
+        }
+    </header>
+</div>
+
+

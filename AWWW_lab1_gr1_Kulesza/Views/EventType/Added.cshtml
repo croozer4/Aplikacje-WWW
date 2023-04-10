@@ -1,0 +1,19 @@
+﻿@model AWWW_lab1_gr1_Kulesza.Models.EventType
+
+<h1>Dodano rodzaj wydarzenia:</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        <h1>@Model.Name</h1>
+    </header>
+
+    <div class="w3-container">
+        <p>ID rodzaju kategorii: @Model.Id</p>
+        @if (@Model.MatchEvents != null)
+        {
+            <p><a asp-controller="matchEvent" asp-action="index" asp-route-id="@Model.Id">Wydarzenie</a></p>
+        }
+    </div>
+</div>
+
+

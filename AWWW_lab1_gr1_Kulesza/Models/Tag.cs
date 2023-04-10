@@ -11,7 +11,7 @@ namespace AWWW_lab1_gr1_Kulesza.Models
         public int Id { get; set; }
         public string? Name { get; set; }
         // * - *
-        public virtual ICollection<Article>? Article { get; set; }
+        public virtual ICollection<Article>? Articles { get; set; }
         public Tag(string name)
         {
             Name = name;

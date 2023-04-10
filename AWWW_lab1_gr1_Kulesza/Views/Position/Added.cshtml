@@ -1,0 +1,23 @@
+﻿@model AWWW_lab1_gr1_Kulesza.Models.Position
+
+<h1>Dodano pozycję:</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        <h1>@Model.Name</h1>
+    </header>
+
+    <div class="w3-container">
+        <p>ID pozycji: @Model.Id</p>
+        @if (@Model.Players != null)
+        {
+            <p><a asp-controller="player" asp-action="index" asp-route-id="@Model.Id">Gracz</a></p>
+        }
+        @if (@Model.MatchPlayers != null)
+        {
+            <p><a asp-controller="matchPlayer" asp-action="index" asp-route-id="@Model.Id">Gracz wydarzenia</a></p>
+        }
+    </div>
+</div>
+
+

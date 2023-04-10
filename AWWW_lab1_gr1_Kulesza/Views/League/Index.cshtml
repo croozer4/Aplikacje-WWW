@@ -1,0 +1,21 @@
+﻿@model AWWW_lab1_gr1_Kulesza.Models.League
+
+<h1>Liga</h1>
+
+<div class="w3-card">
+    <header class="w3-container w3-blue">
+        <h1>@Model.Name</h1>
+    </header>
+
+    <div class="w3-container">
+        <p>ID ligi: @Model.Id</p>
+        <p>Kraj: @Model.Country</p>
+        <p>Poziom: @Model.Level</p>
+        @if (@Model.Teams != null)
+        {
+            <p><a asp-controller="team" asp-action="index" asp-route-id="@Model.Id">Drużyna</a></p>
+        }
+    </div>
+</div>
+
+
